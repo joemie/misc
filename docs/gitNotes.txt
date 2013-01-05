@@ -1,0 +1,4 @@
+git clone then git branch
+git merge to commit changes to master
+git add file - add the file to the index
+git commit -m "my commit message"
