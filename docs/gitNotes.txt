@@ -1,4 +1,34 @@
 git clone then git branch
 git merge to commit changes to master
-git add file - add the file to the index
+git add file # add the file to the index
 git commit -m "my commit message"
+git log
+<------->
+git init
+git add dir
+git commit -m "message"
+git remote add origin https://github.com/joemie/misc.git
+git push -u origin master
+<------->
+git remote rm origin - use if you get the error "fatal: remote origin already exists."
+<-------> 
+WINDOWS MACHINE IS THIS WAY
+C:\Users\joseph\.gitconfig
+# Set default so that all changes are always pushed to the repository
+git config --global push.default "matching"
+# Set default so that you avoid unnecessary commits
+git config --global branch.autosetuprebase always 
+git config --global color.status auto
+git config --global color.branch auto 
+<------->
+git config --list # shows git settings
+<------->
+files and directories can be ignored in .gitignore file
+gitignore can use wildcards such as . * 
+folder/ will match folder in any subfolder
+*~ in gitignore will ignore any file ending in ~
+<------->
+git ignores empty directories
+when you want repo to match head, you want untracked filed to go away use git clean -df
+git clean -df #directories force
+
